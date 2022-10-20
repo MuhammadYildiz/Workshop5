@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    transition: all 0.5s;
+}
+.container{
+    background-color: aquamarine;
+    width: 420px;
+    border-radius: 10px; 
+}
+.container h1{
+    text-align: center;
+    padding: 20px;
+    color:rgb(62, 11, 11);
+}
+.form{
+    margin: 10px 30px;
+}
+.form__input{
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border:rgb(62, 11, 11) solid 2px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px 1px rgb(111, 110, 110);
+}
+.form__input:hover{
+    box-shadow: 2px 3px 10px 1px rgb(0, 0, 0);
+}
+.form section label{
+    padding: 5px 10px;
+    margin: 15px ;
+    font-size: 15px;
+    font-weight: bold;
+    border: rgb(62, 11, 11)  2px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(76, 75, 75);
+}
+.form section label:hover{
+    box-shadow: 2px 3px 10px 1px rgb(0, 0, 0);
+}
+.form__button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 243);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgb(76, 75, 75);
+}
+.form__button:hover{
+    box-shadow: 2px 3px 10px 1px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.form article{
+   margin: 15px;
+   background-color: rgb(6, 35, 36);
+   padding: 5px 20px;
+   border-radius: 10px;
+   color: white;
+   
+}
+.form article p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px;
+    text-align: left;
+}
+
+
+
+
